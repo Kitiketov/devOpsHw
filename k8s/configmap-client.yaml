@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: client-config
-  namespace: homework-2
-data:
-  WEB_SERVICE_HOST: "web.homework-2.svc.cluster.local"
-  WEB_SERVICE_PORT: "80"
